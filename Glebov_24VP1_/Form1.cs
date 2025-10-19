@@ -41,8 +41,8 @@ namespace Glebov_24VP1_
             chart1.ChartAreas[0].AxisY.Interval = 20;
             chart1.ChartAreas[0].AxisX.LabelStyle.Format = "0'%'";
 
-            FillTableWithRealisticData();
-            UpdateChartFromGrid();
+            //FillTableWithRealisticData();
+            //UpdateChartFromGrid();
         }
         
         private void UnorderedList()
@@ -87,7 +87,7 @@ namespace Glebov_24VP1_
         }
 
         // Заполнение таблицы реалистичными данными (время растет с %)
-        private void FillTableWithRealisticData()
+        /*private void FillTableWithRealisticData()
         {
             Random rand = new Random();
 
@@ -145,7 +145,7 @@ namespace Glebov_24VP1_
                 UpdateChartFromGrid();
             }
         }
-        
+        */
         private void SortButton_Click(object sender, EventArgs e)
         {
 
